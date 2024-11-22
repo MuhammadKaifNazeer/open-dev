@@ -17,7 +17,7 @@ export const ThemeToggler = React.forwardRef<
     <>
       <Button
         ref={ref}
-        variant="outline"
+        variant="ghost"
         type="button"
         size="icon"
         className={cn("px-2 hidden lg:flex", className)}
